@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'sans'; }
+
+/**** Div TOP *****/
+.div-top {
+  width: 100%;
+  background-color: #07011d; }
+  .div-top .h1-div-top {
+    text-align: center;
+    padding: 50px 50px;
+    color: white;
+    position: relative; }
+  .div-top .h1-div-top:before {
+    content: "";
+    width: 50px;
+    height: 0px;
+    background-color: none;
+    display: inline-block;
+    border: 3px solid white;
+    position: relative;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-100%); }
+  .div-top .h1-div-top:after {
+    content: "";
+    width: 50px;
+    height: 0px;
+    background-color: none;
+    display: inline-block;
+    border: 3px solid white;
+    position: relative;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-100%); }
+
+/*******End DIV TOP***********/
+/*******Start Navbar********/
+.navbar-me {
+  width: 100%;
+  color: black; }
+  .navbar-me .ul-navbar-me {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #07011d;
+    box-shadow: 1px 10px 20px 1px rgba(0, 0, 0, 0.5);
+    padding: 10px 0px;
+    font-size: 25px; }
+    .navbar-me .ul-navbar-me li {
+      text-align: center;
+      list-style: none; }
+      .navbar-me .ul-navbar-me li a {
+        color: white;
+        text-decoration: none; }
+
+/******End Navbar*******/
+/********OutPut Start*********/
+.welcome {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column; }
+  .welcome .div-products span {
+    margin-top: 20px;
+    font-size: 25px;
+    display: block; }
+  .welcome .div-products a button {
+    margin-top: 30px;
+    padding: 15px 80px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background: #07011d;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+    cursor: pointer;
+    outline: none; }
+
+/********OutPut End**********/
+/********START FOOTER***********/
+.footer {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  padding: 5px 50px;
+  color: white;
+  border-top: 5px solid white;
+  background-color: #07011d; }
+
+/********END FOOTER**********/
+.h2-products {
+  text-align: center;
+  margin-top: 4%; }
+
+.table-products {
+  position: relative;
+  margin-top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center; }
+
+.div-crud {
+  text-align: center;
+  padding-left: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  padding: 0px 50px 20px 50px;
+  color: white;
+  background-color: #07011d;
+  margin-top: 10px; }
+  .div-crud form {
+    display: flex;
+    float: left; }
+  .div-crud section {
+    color: white;
+    margin-left: 20px; }
+  .div-crud section .btn-edit {
+    outline: none;
+    cursor: pointer;
+    padding: 10px 30px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-25%);
+    background: linear-gradient(to right, #00f9c0, #6de253);
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.5);
+    color: white; }
+  .div-crud section .btn-remove {
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-25%);
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.5); }
+
+.btn-create {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  box-shadow: 1px 2px 20px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  margin-top: 20px;
+  padding: 10px 50px;
+  width: 50%;
+  position: relative;
+  background: linear-gradient(to right, #2E073B, #9517BF);
+  color: white;
+  font-size: 25px;
+  font-family: 'monospace';
+  left: 50%;
+  transform: translateX(-50%); }
+
+.btn-create:focus {
+  outline: none; }
+
+.modal .modal-dialog .modal-content .modal-body {
+  width: 100%;
+  text-align: center; }
+  .modal .modal-dialog .modal-content .modal-body label {
+    display: block; }
+
+/*# sourceMappingURL=import.css.map */
